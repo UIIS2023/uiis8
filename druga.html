@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNGames</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+ <section class="sub-header">
+     <nav>
+        <a href="PROJEKAT IGRAONICA.html"><img src="naslovna.png"></a>
+         <div class="nav-linkovi">
+             <ul>
+                <li><a href="druga.html">TURNIRI</a></li>
+                <li><a href="galerija.html">GALERIJA</a></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+                <li><a href="clock.html">VREME</a></li>
+
+             </ul>
+          </div>
+     </nav>
+     
+ </section>
+<!---------------------------------------->
+<section class="turnir">
+    <div class="red12">
+        <div class="oturniru">
+        <h1>O našim turnirima</h1>
+        <p>U našoj kompjuterskoj igraonici redovno organizujemo uzbudljive turnire za ljubitelje video igara. Bez obzira da li ste casual igrač ili profesionalni gejmer, imamo nešto za svakoga!
+            Pridružite nam se na jednom od naših turnira i pokažite svoje veštine u različitim igrama. Učestvujte, takmičite se i osvojite fantastične nagrade!</p>
+
+        <h1>Kako se prijaviti?</h1>
+        <p>Prijavljivanje za naše turnire je jednostavno. Posetite našu stranicu sa aktuelnim turnirima, odaberite igru koja vas zanima, popunite prijavni formular i spremni ste za akciju!</p>
+    
+       
+
+
+        <h1>Nagrade i priznanja</h1>
+        <p>Za nas, svaki učesnik je pobednik! Pored sjajnog iskustva i prilike za druženje sa istomišljenicima, pripremili smo fantastične nagrade za najbolje igrače. Očekujte vredne nagrade, sponzorstva, i možda čak i priliku da se takmičite na nacionalnom ili međunarodnom nivou!</p>
+    </div>
+        <div class="oturniru">
+            <img src="turnirlol.webp">
+        </div>
+</section>
+
+<section class="turnir">
+    <div class="red12">
+        <div class="oturniru">
+        <h1>Kako pratiti turnire</h1>
+        <p>Da biste ostali u toku sa tokom turnira, posetite našu stranicu uživo gde možete pratiti rezultate u realnom vremenu. Takođe, možete se prijaviti za naš newsletter kako biste primali obaveštenja o nadolazećim turnirima, ekskluzivnim promocijama i novostima iz gejming sveta.</p>
+        
+        <h1>Pridružite se zajednici</h1>
+        <p>Kompjuterska igraonica nije samo mesto za takmičenje; to je i zajednica entuzijasta koji dele istu strast prema video igrama. Pridružite se našem forumu, društvenim grupama i učestvujte u diskusijama. Delite svoja iskustva, savete i izazovite druge igrače na prijateljske duele!</p>
+        
+        <h1>Vrste igara na turnirima</h1>
+        <p>Nudimo raznovrsne turnire u popularnim žanrovima kao što su akcione igre, MOBA, battle royale, strategije i još mnogo toga. Bez obzira da li volite uzbuđenje brze akcije ili taktički pristup, imamo turnire prilagođene vašem ukusu.</p>
+
+    </div>
+        <div class="oturniru">
+            <img src="turnir1.jpg">
+        </div>
+</section>
+
+<div id="timer-container">
+    <h2>PUBG TURNIR:</h2>
+    <p id="timer"></p>
+</div>
+
+<section class="proizvoljne-slike">
+    <h2>Slike igrica koje se igraju na turnirima</h2>
+    <div class="red-slika">
+        <div class="slika-container">
+            <img src="csgo.png" alt="Slika 1">
+            <img src="ligalegendi.jpeg" alt="Slika 2">
+            <img src="valorant.jpg" alt="Slika 3">
+        </div>
+    </div>
+    <div class="red-slika">
+        <div class="slika-container">
+            <img src="fort.jpg" alt="Slika 4">
+            <img src="pabg.jpg" alt="Slika 5">
+            <img src="dota2.jpeg" alt="Slika 6">
+        </div>
+    </div>
+    <div class="red-slika">
+        <div class="slika-container">
+            <img src="cs1.6.jpg" alt="Slika 4">
+            <img src="apex.jpg" alt="Slika 5">
+            <img src="sajber.jpeg" alt="Slika 6">
+        </div>
+    </div>
+
+</section>
+
+
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+        </div>
+        <div class="footer-info">
+            <h3>Kontakt informacije</h3>
+            <p>Email: rngames@gmail.com</p>
+            <p>Telefon: +381 123 456 789</p>
+            <p>Adresa: Kace Dejanovic 40</p>
+        </div>
+        <div class="footer-social">
+            <h3>Zapratite nas</h3>
+            <a href="#" target="_blank"><img src="fejs.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="tviter.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; RNGames PC Igraonica</p>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('beforeunload', function () {
+        window.scrollTo(0, 0);
+    });
+</script>
+
+<script>
+    const countDownDate = new Date("Jan 31, 2024 00:00:00").getTime();
+
+    const x = setInterval(function () {
+        const now = new Date().getTime();
+
+        const distance = countDownDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "Vreme je isteklo";
+        }
+    }, 1000);
+</script>
+
+
+
+
+</body>
+</html>
